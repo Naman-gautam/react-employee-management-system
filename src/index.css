@@ -1,0 +1,11 @@
+@import "tailwindcss";
+*{
+  color:white;
+}
+body{
+  background-color:#111;
+}
+/* jis element ki id tasklist hai uska scrollbar hata do */
+#tasklist::-webkit-scrollbar{
+display: none;
+}
