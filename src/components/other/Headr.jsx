@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 
-const Headr = ({data}) => {
+const Headr = () => {
   // console.log(data);
   function logOutUser(){
    localStorage.setItem('loggedInUser','');
