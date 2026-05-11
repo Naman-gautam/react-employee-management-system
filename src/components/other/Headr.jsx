@@ -4,7 +4,7 @@ const Headr = () => {
   // console.log(data);
   function logOutUser(){
    localStorage.setItem('loggedInUser','');
-   window.location.reload();
+   window.location.reload()
   }
   return (
     <div className='flex justify-between items-end'>
